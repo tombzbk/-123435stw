@@ -1,0 +1,315 @@
+@media only screen and (max-width: 960px) {
+
+/*@import "http://fonts.googleapis.com/css?family=Open+Sans:400,700";*/
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a, #cssmenu #menu-button {
+    -moz-box-sizing: border-box;
+    border: 0 none;
+    display: block;
+    line-height: 1;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#cssmenu:after, #cssmenu > ul:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+#cssmenu #menu-button {
+    display: none;
+}
+#cssmenu {
+    background: linear-gradient(to bottom, #51BBD2 0%, #2D97AF 100%) repeat scroll 0 0 transparent;
+    font-family: 'Open Sans',Helvetica,sans-serif;
+    width: auto;
+    z-index: 999;
+}
+#cssmenu > ul {
+    background: url("http://cssmenumaker.com/sites/default/files/menu/320/bg.png") repeat scroll 0 0 transparent;
+    box-shadow: 0 -3px 0 rgba(0, 0, 0, 0.05) inset;
+}
+#cssmenu.align-right > ul > li {
+    float: right;
+}
+#cssmenu > ul > li {
+    display: inline-block;
+    float: left;
+}
+#cssmenu.align-center > ul {
+    float: none;
+    font-size: 0;
+    text-align: center;
+}
+#cssmenu.align-center > ul > li {
+    float: none;
+}
+#cssmenu.align-center ul ul {
+    text-align: left;
+}
+#cssmenu > ul > li > a {
+    border-right: 1px solid rgba(80, 80, 80, 0.12);
+    color: #D3ECED;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 18px 25px 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#cssmenu > ul > li:hover > a, #cssmenu > ul > li > a:hover, #cssmenu > ul > li.active > a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+    color: #FFFFFF;
+}
+#cssmenu > ul > li.has-sub > a {
+    padding-right: 45px;
+}
+#cssmenu > ul > li.has-sub > a:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #D3ECED transparent transparent;
+    border-image: none;
+    border-right: 6px solid transparent;
+    border-style: solid;
+    border-width: 6px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 17px;
+    top: 22px;
+    width: 0;
+}
+#cssmenu > ul > li.has-sub.active > a:after, #cssmenu > ul > li.has-sub:hover > a {
+    border-top-color: #FFFFFF;
+}
+#cssmenu ul ul {
+    font-size: 13px;
+    left: -9999px;
+    opacity: 0;
+    padding-top: 6px;
+    position: absolute;
+    top: 60px;
+    transition: top 0.2s ease 0s, opacity 0.2s ease-in 0s;
+    z-index: 9999;
+}
+#cssmenu.align-right ul ul {
+    text-align: right;
+}
+#cssmenu > ul > li > ul:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent #FFFFFF;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    height: 0;
+    left: 20px;
+    position: absolute;
+    top: -4px;
+    width: 0;
+}
+#cssmenu.align-right > ul > li > ul:after {
+    left: auto;
+    right: 20px;
+}
+#cssmenu ul ul ul:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent #FFFFFF transparent transparent;
+    border-image: none;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    height: 0;
+    left: -4px;
+    position: absolute;
+    top: 11px;
+    width: 0;
+}
+#cssmenu.align-right ul ul ul:after {
+    border-left-color: #FFFFFF;
+    border-right-color: transparent;
+    left: auto;
+    right: -4px;
+}
+#cssmenu > ul > li > ul {
+    top: 120px;
+}
+#cssmenu > ul > li:hover > ul {
+    left: 0;
+    opacity: 1;
+    top: 52px;
+}
+#cssmenu.align-right > ul > li:hover > ul {
+    left: auto;
+    right: 0;
+}
+#cssmenu ul ul ul {
+    padding-left: 6px;
+    padding-top: 0;
+}
+#cssmenu.align-right ul ul ul {
+    padding-right: 6px;
+}
+#cssmenu ul ul > li:hover > ul {
+    left: 180px;
+    opacity: 1;
+    top: 0;
+}
+#cssmenu.align-right ul ul > li:hover > ul {
+    left: auto;
+    opacity: 1;
+    right: 100%;
+}
+#cssmenu ul ul li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1), 1px 1px 1px rgba(0, 0, 0, 0.1), -1px 1px 1px rgba(0, 0, 0, 0.1);
+    color: #777777;
+    font-weight: 400;
+    padding: 11px 25px;
+    text-decoration: none;
+    width: 180px;
+}
+#cssmenu ul ul li:hover > a, #cssmenu ul ul li.active > a {
+    color: #333333;
+}
+#cssmenu ul ul li:first-child > a {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#cssmenu ul ul li:last-child > a {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#cssmenu > ul > li > ul:after {
+    display: block;
+    position: absolute;
+}
+#cssmenu ul ul li.has-sub > a:after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: transparent transparent transparent #777777;
+    border-image: none;
+    border-style: solid;
+    border-width: 4px;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: 17px;
+    top: 14px;
+    width: 0;
+}
+#cssmenu.align-right ul ul li.has-sub > a:after {
+    border-left-color: transparent;
+    border-right-color: #777777;
+    left: 17px;
+    right: auto;
+}
+#cssmenu ul ul li.has-sub.active > a:after, #cssmenu ul ul li.has-sub:hover > a:after {
+    border-left-color: #333333;
+}
+#cssmenu.align-right ul ul li.has-sub.active > a:after, #cssmenu.align-right ul ul li.has-sub:hover > a:after {
+    border-left-color: transparent;
+    border-right-color: #333333;
+}
+#cssmenu {
+    background: none repeat scroll 0 0 #39B1CC;
+}
+#cssmenu > ul {
+    display: none;
+}
+#cssmenu > ul.open {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: block;
+}
+#cssmenu.align-right > ul {
+    float: none;
+}
+#cssmenu.align-center > ul {
+    text-align: left;
+}
+#cssmenu > ul > li, #cssmenu.align-right > ul > li {
+    display: block;
+    float: none;
+}
+#cssmenu > ul > li > a {
+    border-right: 0 none;
+    padding: 18px 25px;
+}
+#cssmenu > ul > li:hover > a, #cssmenu > ul > li.active > a {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.1);
+}
+#cssmenu #menu-button {
+    background: url("http://cssmenumaker.com/sites/default/files/menu/320/bg.png") repeat scroll 0 0 transparent;
+    color: #D3ECED;
+    cursor: pointer;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 18px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#cssmenu ul ul, #cssmenu ul li:hover > ul, #cssmenu > ul > li > ul, #cssmenu ul ul ul, #cssmenu ul ul li:hover > ul, #cssmenu.align-right ul ul, #cssmenu.align-right ul li:hover > ul, #cssmenu.align-right > ul > li > ul, #cssmenu.align-right ul ul ul, #cssmenu.align-right ul ul li:hover > ul {
+    left: 0;
+    opacity: 1;
+    padding: 0;
+    position: relative;
+    right: auto;
+    text-align: left;
+    top: auto;
+    width: 100%;
+}
+#cssmenu ul ul li {
+    width: 100%;
+}
+#cssmenu ul ul li a {
+    box-shadow: none;
+    padding-left: 35px;
+    width: 100%;
+}
+#cssmenu ul ul ul li a {
+    padding-left: 45px;
+}
+#cssmenu ul ul li:first-child > a, #cssmenu ul ul li:last-child > a {
+    border-radius: 0 0 0 0;
+}
+#cssmenu #menu-button:after {
+    -moz-box-sizing: content-box;
+    border-bottom: 2px solid #D3ECED;
+    border-top: 2px solid #D3ECED;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    right: 25px;
+    top: 18px;
+    width: 22px;
+}
+#cssmenu #menu-button:before {
+    border-top: 2px solid #D3ECED;
+    content: "";
+    display: block;
+    height: 3px;
+    position: absolute;
+    right: 25px;
+    top: 28px;
+    width: 22px;
+}
+#cssmenu > ul > li.has-sub > a:after, #cssmenu ul ul li.has-sub > a:after {
+    display: none;
+}
+}

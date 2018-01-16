@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="01-menu.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+<div id="cssmenu"><div id="menu-button">Menu</div>
+<ul class="open">
+   <li class="active"><a href="index.html">Home</a></li>
+   <li class="has-sub"><a href="#">Products</a></li>
+   <li><a href="#">About</a></li>
+   <li><a href="#">Contact</a></li>
+</ul>
+</div>
+$('#cssmenu').prepend('<div id="menu-button">Menu</div>');
+  $('#cssmenu #menu-button').on('click', function(){
+    var menu = $(this).next('ul');
+    if (menu.hasClass('open')) {
+      menu.removeClass('open');
+    } else {
+      menu.addClass('open');
+    }
+});
+</body>
+</html>

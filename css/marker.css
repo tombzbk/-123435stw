@@ -1,0 +1,494 @@
+@charset "utf-8";
+/* CSS Document */
+    	.all{
+            display:block;
+	}
+        .photo_info{
+            width:26%;
+            height: 433px;
+            float: left;
+/*            padding: 5px 5px 0 5px;*/
+            position: relative;
+            -moz-border-radius-topleft: 30px;
+            -webkit-border-top-left-radius: 30px;
+            border-top-left-radius: 30px;
+            background: rgba(112,112,112,1);
+            background: -moz-linear-gradient(top, rgba(112,112,112,1) 0%, rgba(112,112,112,1) 31%, rgba(10,9,10,1) 100%);
+            background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(112,112,112,1)), color-stop(31%, rgba(112,112,112,1)),color-stop(100%, rgba(10,9,10,1)));
+            background: -webkit-linear-gradient(top, rgba(112,112,112,1) 0%, rgba(112,112,112,1) 31%, rgba(10,9,10,1) 100%);
+            background: -o-linear-gradient(top, rgba(112,112,112,1) 0%, rgba(112,112,112,1) 31%, rgba(10,9,10,1) 100%);
+            background: -ms-linear-gradient(top, rgba(112,112,112,1) 0%, rgba(112,112,112,1) 31%, rgba(10,9,10,1) 100%);
+            background: linear-gradient(to bottom, rgba(112,112,112,1) 0%, rgba(112,112,112,1) 31%, rgba(10,9,10,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707070', endColorstr='#0a090a', GradientType=0 );
+        }
+        .box_map{
+            float: right;
+            width: 73.5%;
+/*            padding: 5px 5px 0 5px;*/
+            height: 433px;
+            max-width: 735px;
+            position: relative;
+            background: rgba(214,214,214,1);
+            background: -moz-linear-gradient(-45deg, rgba(214,214,214,1) 0%, rgba(145,145,145,1) 100%);
+            background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(214,214,214,1)), color-stop(100%, rgba(145,145,145,1)));
+            background: -webkit-linear-gradient(-45deg, rgba(214,214,214,1) 0%, rgba(145,145,145,1) 100%);
+            background: -o-linear-gradient(-45deg, rgba(214,214,214,1) 0%, rgba(145,145,145,1) 100%);
+            background: -ms-linear-gradient(-45deg, rgba(214,214,214,1) 0%, rgba(145,145,145,1) 100%);
+            background: linear-gradient(135deg, rgba(214,214,214,1) 0%, rgba(145,145,145,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#919191', GradientType=1 );
+        }
+        .box_map img{
+            width: 100%;
+        }
+/* Mark Point */
+/* Start orange point */
+        #mark-point1{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 240px;
+            left: 171px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point2{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+			top: 253px;
+			left: 189px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point3{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 260px;
+            left: 239px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point4{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 294px;
+            left: 265px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point5{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 324px;
+            left: 218px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point6{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 148px;
+            left: 382px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point7{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 202px;
+            left: 379px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point8{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 337px;
+            left: 406px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point9{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 203px;
+            right: 287px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point10{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 241px;
+            right: 265px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point11{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 222px;
+            right: 262px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point12{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 236px;
+            right: 247px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point13{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 215px;
+            right: 229px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point14{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 269px;
+            right: 221px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point15{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 245px;
+            right: 204px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point16{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 224px;
+            right: 179px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point17{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 235px;
+            right: 163px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point18{
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: 242px;
+            right: 149px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point19{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 267px;
+            right: 151px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point20{
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: 282px;
+            right: 144px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point21{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 268px;
+            right: 133px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point22{
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            top: 238px;
+            right: 136px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point23{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 245px;
+            right: 113px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+        #mark-point24{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 190px;
+            right: 76px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+
+        }
+/* Hover */
+        #mark-point1:hover,#mark-point2:hover,#mark-point3:hover,#mark-point4:hover,#mark-point5:hover,
+        #mark-point6:hover,#mark-point7:hover,#mark-point8:hover,#mark-point9:hover,#mark-point10:hover,#mark-point11:hover,
+        #mark-point12:hover,#mark-point13:hover,#mark-point14:hover,#mark-point15:hover,#mark-point16:hover,#mark-point17:hover,
+        #mark-point18:hover,#mark-point19:hover,#mark-point20:hover,#mark-point21:hover,#mark-point22:hover,#mark-point23:hover,#mark-point24:hover{
+/*            border: 1px white solid ;*/
+            cursor: pointer;
+        }
+/* end orange point */
+/* Start white point */
+        #mark-point25{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 325px;
+            right: 85px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point26{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 289px;
+            right: 63px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point27{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 264px;
+            right: 47px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point28{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 250px;
+            right: 19px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+        #mark-point29{
+            position: absolute;
+            width: 13px;
+            height: 13px;
+            top: 310px;
+            right: 10px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+		}
+		#mark-point30{
+			position: absolute;
+           	width: 13px;
+            height: 13px;
+            top: 367px;
+            right: 11px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+		#mark-point25:hover,#mark-point26:hover,#mark-point27:hover,#mark-point28:hover,#mark-point29:hover,#mark-point30:hover{
+/*			border: 1px #FF9E00 solid;*/
+			cursor:pointer;
+		}
+
+    #mark-point31{
+			position: absolute;
+           	width: 13px;
+            height: 13px;
+            top: 320px;
+            left: 394px;
+            -webkit-border-radius: 90px;
+            -moz-border-radius: 90px;
+            border-radius: 90px;
+        }
+		#mark-point25:hover,#mark-point26:hover,#mark-point27:hover,#mark-point28:hover,#mark-point29:hover,#mark-point30:hover{
+/*			border: 1px #FF9E00 solid;*/
+			cursor:pointer;
+		}
+
+
+		.info-point{
+			position: absolute;
+			bottom: 0px;
+			width: 87%;
+			padding:5px;
+			margin: 5px 5px 20px 20px;
+		}
+		.info-point #markorange {
+			background:rgba(241,99,32,1.00);
+			width:10px;
+			height:10px;
+			border-radius:50%;
+			margin-bottom:10px;
+			float:left;
+			margin-left: 108px;
+		}
+		.info-point #marwhite {
+			clear:both;
+			background:rgba(255,255,255,1.00);
+			width:10px;
+			height:10px;
+			border-radius:50%;
+			margin-left: 108px;
+		}
+/* End white point        */
+
+.photo {
+    width: 180px;
+}
+.photo img{
+    width: 100%;
+    height: 100%;
+}
+  /*     */
+.tooltip {
+	position:relative;
+	text-decoration:none;
+	cursor:pointer;
+
+}
+.tooltip span {
+	position:absolute;
+	bottom:36px;
+	left:50%;
+	margin-left:-72px;
+	width:130px;
+	opacity:0;
+	visibility:hidden;
+	padding:5px 5px;
+	color:#000000;
+	font:bold 100% Arial, Helvetica, sans-serif;
+	text-align:center;
+	pointer-events:none;
+	border-radius:25px;
+	/*text-shadow:1px 1px 2px rgba(0, 0, 0, 0.6);*/
+	background:rgba(255,255,255,1.0);
+	background:rgba(255,255,255,1.0);
+	border:2px solid rgb(255,255,255);
+	border:2px solid rgba(255,255,255,.8);
+	box-shadow:0px 2px 4px rgba(0,0,0,0.5);
+	-webkit-transition:all 0.3s ease-in-out;
+	-moz-transition:all 0.3s ease-in-out;
+	-o-transition:all 0.3s ease-in-out;
+	-ms-transition:all 0.3s ease-in-out;
+	transition:all 0.3s ease-in-out;
+	z-index:9999;
+}
+.box_map .tooltip span.dif {
+	width:190px;
+	margin-left:-102px;
+}
+.box_map .tooltip span:before, .box_map .tooltip span:after {
+	content:'';
+	position:absolute;
+	bottom:-13px;
+	left:50%;
+	margin-left:-12px;
+	border-left:12px solid transparent;
+	border-right:12px solid transparent;
+	border-top:12px solid rgb(255,255,255);
+	border-top:12px solid rgba(255,255,255,.8);
+}
+.box_map .tooltip span:after {
+	bottom:-10px;
+	margin-left:-10px;
+	border-width:10px;
+	border-top:10px solid rgba(255,255,255,1.00);
+	border-top:10px solid rgba(255,255,255,0.80);
+}
+.box_map .tooltip:hover span {
+	opacity:1;
+	bottom:28px;
+	visibility:visible;
+}
+.box_map .tooltip span:hover {
+	visibility:hidden;
+}
+@media screen and (min-device-width:320px) and (max-device-width:768px) {.box_map .tooltip span{display:none;}.box_map .tooltip:hover span{display:block;} } /* iPad & iPhone simulate :hover */

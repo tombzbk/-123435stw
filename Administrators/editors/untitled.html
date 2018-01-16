@@ -1,0 +1,33 @@
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="box  box-form" >
+                            <div class="box-header">                                
+                                <h3 class="box-title">Content Editor</h3>
+                            </div>                                
+                            <div class="box-body">
+                                <div class="ibox-content no-padding">
+                                    <div class="summernote">                                    
+                                      
+                                    </div>
+                                    <button id="edit" class="btn btn-primary" type="button">Edit</button>
+                                    <button id="save" class="btn btn-primary" type="button">Save</button>
+                                </div>
+                            </div><!-- /.box-body -->
+                        </div><!-- /.box -->
+
+                    </div><!-- /.col -->
+                </div> <!-- /.row -->
+        <link rel="stylesheet" type="text/css" href="editors/css/plugins/summernote.css">
+       <!-- <link rel="stylesheet" type="text/css" href="editors/css/plugins/summernote-bs3.css">-->                
+        <script type="text/javascript" src="script/subscribe.js"></script>   
+        <!-- SUMMERNOTE -->
+    	<script src="editors/js/summernote.min.js"></script>
+        <script type="text/javascript">
+			$(document).ready(function() {
+			  $('.summernote').summernote();
+				$("#save").click(function(){
+					console.log($('.summernote').code());
+				});
+			});
+				
+        </script>                  

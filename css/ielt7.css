@@ -1,0 +1,31 @@
+#logo a { background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/logo-b.png", sizingMethod="crop"); }
+
+#bookmarks li a { filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50); }
+#bookmarks li a:hover { filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100); }
+
+#header { width: 100%; background-image: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/bg-header-a.png", sizingMethod="scale"); }
+
+#steps ol li { background-image: url(../images/steps-bg-a-ie.png); }
+ #steps ol li.step-1 span em { background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/steps-bg-b-a.png", sizingMethod="crop"); }
+ #steps ol li.step-2 span em { background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/steps-bg-b-b.png", sizingMethod="crop"); }
+ #steps ol li.step-3 span em { background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/steps-bg-b-c.png", sizingMethod="crop"); }
+		
+div.project-a div.info { height: 95px; }
+		 
+h3.b { background-image: url(../images/bg-headers-a-ie.png); }
+		 
+ol.a li { background: url(../images/numbers-a-ie.png) 10px 0 no-repeat; line-height: 1.1; }
+		  
+ol.features-a li h2 { background-image: url(../images/numbers-a-ie.png); }
+			
+form.a p { height: 1%; }
+			 
+dl.faq-a dt { height: 1%; }
+			  
+#calculator p.pages { height: 1%; }
+			   
+#testimonials div.wrap-outer { background: url(../images/bg-postit-bottom-ie.png) 0 100% no-repeat; }
+ #testimonials div.wrap-inner { height: 90px; background: url(../images/bg-postit-top-ie.png) 0 0 no-repeat; }
+				  
+#e404 #error { height: 135px; background: none; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/shinobi.png", sizingMethod="crop"); }
+ .ui-datepicker-cover { display: none; }						  
